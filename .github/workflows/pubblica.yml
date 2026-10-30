@@ -9,7 +9,9 @@ on:
       solo_id:
         description: 'Pubblica subito solo il post con questo id (lascia vuoto per il funzionamento normale)'
         default: ''
-
+      elenca_pagine:
+        description: 'Mostra solo le Pagine raggiungibili con il token (true/false)'
+        default: 'false'
 permissions:
   contents: write
 
@@ -31,6 +33,7 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           ONLY_ID: ${{ github.event.inputs.solo_id || '' }}
+          LIST_PAGES: ${{ github.event.inputs.elenca_pagine || 'false' }}
       - name: Salva lo stato delle pubblicazioni
         if: always()
         run: |
