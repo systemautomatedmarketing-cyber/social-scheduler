@@ -1,0 +1,11 @@
+[
+  {
+    "id": "test-1",
+    "pagina": "alessio",
+    "quando": "2026-12-31T12:00:00+01:00",
+    "piattaforme": ["facebook"],
+    "tipo": "testo",
+    "testo": "Post di prova del sistema di pubblicazione automatica (da eliminare).",
+    "file": ""
+  }
+]

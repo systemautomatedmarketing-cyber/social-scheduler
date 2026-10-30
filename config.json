@@ -1,0 +1,6 @@
+{
+  "graphVersion": "v23.0",
+  "mediaBaseUrl": "https://TUO-NOME-UTENTE.github.io/social-scheduler",
+  "maxLateMinutes": 360,
+  "maxAttempts": 3
+}
