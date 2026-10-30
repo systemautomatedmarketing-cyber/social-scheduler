@@ -1,6 +1,6 @@
 {
   "graphVersion": "v23.0",
-  "mediaBaseUrl": "https://systemautomatedmarketing-cyber.github.io/social-scheduler"
+  "mediaBaseUrl": "https://systemautomatedmarketing-cyber.github.io/social-scheduler",
   "maxLateMinutes": 360,
   "maxAttempts": 3
 }
