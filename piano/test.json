@@ -1,11 +1,20 @@
 [
   {
     "id": "test-1",
-    "pagina": "alessio",
+    "pagina": "webstudio",
     "quando": "2026-12-31T12:00:00+01:00",
     "piattaforme": ["facebook"],
     "tipo": "testo",
-    "testo": "Post di prova del sistema di pubblicazione automatica (da eliminare).",
+    "testo": "Facebook, Instagram, TikTok e YouTube: ogni giorno li usiamo, ma quante funzioni conosciamo davvero?\n\nNei prossimi giorni qui troverai trucchi pratici, spiegati semplici, per usare i social con più sicurezza e meno fatica.\n\nQual è la cosa che ti fa perdere più tempo sui social? Scrivilo nei commenti 👇",
     "file": ""
+  },
+  {
+    "id": "test-2",
+    "pagina": "webstudio",
+    "quando": "2026-12-31T12:00:00+01:00",
+    "piattaforme": ["facebook", "instagram"],
+    "tipo": "immagine",
+    "testo": "Il digitale, senza panico.\n\n120 trucchi da esperto, una checklist per ogni capitolo e un piano di 7 giorni con meno di 30 minuti al giorno. Facebook, Instagram, TikTok e YouTube spiegati come te li spiegherebbe un amico.\n\nEbook e cartaceo su Amazon. Tutti i dettagli qui 👉 https://www.webstudioams.it/digitalesenzapanico/\n\n#digitalesenzapanico #socialmedia #trucchisocial",
+    "file": "media/test/digitale-senza-panico.jpg"
   }
 ]
