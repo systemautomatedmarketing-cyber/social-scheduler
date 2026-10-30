@@ -22,6 +22,16 @@ if (!TOKEN && !DRY_RUN) {
   process.exit(1);
 }
 
+// Modalità "elenca pagine": mostra Pagine e Instagram raggiungibili con il token, poi termina.
+if (process.env.LIST_PAGES === 'true') {
+  const r = await fetch(`${G}/me/accounts?fields=id,name,instagram_business_account{username}&limit=200&access_token=${TOKEN}`);
+  const j = await r.json();
+  if (j.error) { console.error('ERRORE token:', JSON.stringify(j.error)); process.exit(1); }
+  console.log(`Pagine raggiungibili con il token: ${j.data.length}`);
+  for (const p of j.data) console.log(`- ${p.name} | ID Pagina: ${p.id} | Instagram: ${p.instagram_business_account?.username || 'non collegato'}`);
+  process.exit(0);
+}
+
 async function api(p, params = {}, method = 'POST') {
   const url = new URL(p.startsWith('http') ? p : G + p);
   let res;
