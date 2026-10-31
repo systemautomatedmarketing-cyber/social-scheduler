@@ -16,5 +16,15 @@
     "tipo": "immagine",
     "testo": "Il digitale, senza panico.\n\n120 trucchi da esperto, una checklist per ogni capitolo e un piano di 7 giorni con meno di 30 minuti al giorno. Facebook, Instagram, TikTok e YouTube spiegati come te li spiegherebbe un amico.\n\nEbook e cartaceo su Amazon. Tutti i dettagli qui 👉 https://www.webstudioams.it/digitalesenzapanico/\n\n#digitalesenzapanico #socialmedia #trucchisocial",
     "file": "media/test/digitale-senza-panico.jpg"
+  },
+  {
+    "id": "test-3",
+    "pagina": "webstudio",
+    "quando": "2026-12-31T12:00:00+01:00",
+    "piattaforme": ["facebook", "instagram"],
+    "tipo": "reel",
+    "testo": "YouTube: 3 tasti che quasi nessuno usa.\n\nK = pausa e play\nJ = indietro di 10 secondi\nL = avanti di 10 secondi\n\nFunzionano da computer, senza toccare il mouse. E sono solo 3 dei 120 trucchi della guida \"Digitale senza Panico\" 👉 https://www.webstudioams.it/digitalesenzapanico/\n\n#youtube #trucchiyoutube #digitalesenzapanico",
+    "file": "media/test/reel-test-youtube.mp4"
   }
+]
 ]
