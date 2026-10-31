@@ -1,7 +1,9 @@
 name: Pubblica post programmati
 
 on:
-  workflow_dispatch:
+ schedule:
+    - cron: '*/15 * * * *'
+ workflow_dispatch:
     inputs:
       dry_run:
         description: 'Solo prova, senza pubblicare? (true = prova, false = pubblica davvero)'
